@@ -1,0 +1,137 @@
+\documentclass[9pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{comment}
+
+% Font
+\usepackage{mathpazo} % Use Palatino for text and math
+
+% Set page margins
+\geometry{a4paper, margin=0.75in}
+
+% Remove default page numbering
+\pagestyle{empty}
+
+% Disable hyphenation while keeping justified text
+\hyphenpenalty=10000 % Disallow hyphenation
+\tolerance=1000 % Allow more loose spacing before hyphenating
+\emergencystretch=3em % Additional flexibility in spacing
+
+% Setting Indentation Zero Globally
+\setlength{\parindent}{0pt}
+
+% Customize section headings
+\titleformat{\section}{\large\bfseries\MakeUppercase}{\thesection}{1.75em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1.5em}{}
+
+% Customize itemize spacing
+\setlist[itemize]{nosep, itemsep=4pt, topsep=0pt}
+\setlist[enumerate]{nosep, itemsep=4pt, topsep=0pt}
+
+% Begin document
+\begin{document}
+
+% Header
+\begin{center}
+    \textbf{\LARGE \MakeUppercase{Safius Sakib Shuddho}} \\[0.2cm]
+    \small +880-16248-41180 \quad
+    \href{https://linkedin.com/in/sshuddho}{linkedin.com/in/sshuddho} \quad \href{https://github.com/sshuddho}{github.com/sshuddho} \quad s.shuddho@gmail.com 
+\end{center}
+
+\hrule \vspace{-6pt}
+
+% Education
+\section*{Education}
+\textbf{Bachelor of Science in Nuclear Engineering} \hfill \textbf{Jul 2025} \\
+\textit{Military Institute of Science and Technology, Dhaka, Bangladesh}
+\begin{itemize}
+    \item CGPA: 3.49/4.00
+\end{itemize}
+
+\begin{comment}
+\vspace{4pt}
+\textbf{Higher Secondary Certificate (HSC)}\hspace{1em}--- \textit{Notre Dame College, Dhaka} \hfill \textbf{2020} \\
+GPA: 5.00/5.00 \vspace{4pt} \\
+\textbf{Secondary School Certificate (SSC)}\hspace{1.3em}--- \textit{Government Laboratory High School, Dhaka} \hfill \textbf{2018} \\
+GPA: 5.00/5.00
+\end{comment}
+
+% \hrule \vspace{-6pt}
+
+% Research Experience
+\section*{Research Experience}\vspace{-6pt}
+\textbf{Undergraduate Thesis} \hfill \textbf{Jan 2024 -- May 2025}\\
+\MakeUppercase{Neutronics Characteristics Analysis and Improvements in Lead-Cooled Fast Reactors (ALFRED) and a Conceptual Design of a Multi-Purpose Research Reactor (MPRR).} \hfill \textit{Supervised by Prof. Dr. Abdus Sattar Mollah}\\
+
+% Publications
+\textbf{Publications and Conference Projects}\vspace{4pt}
+\begin{enumerate}
+    \item Shuddho, S. S., Sunny, A. A., \& Mollah, A. S., ``Neutronic Performance of Reflector Materials in Lead-cooled Fast Reactor,'' \textbf{\textit{Under Review in Nuclear Engineering and Design,}} 2025
+    \item Zarin N. Z., Sunny A. A., Shuddho, S. S. and Mollah, A. S., ``Investigation of Neutronics Parameters of Multi-Purpose Research Reactor (MPRR) using VVR-KN Fuel.''\\
+    \textbf{\textit{International Conference on Electronics and Informatics 2024,}} AEC, DHAKA, 2024.
+    \item Dipto, R. R., Shuddho, S. S., Sunny, A. A., \& Mollah, A. S., ``Analysis of Neutronics Parameters of Different Annular Fuel using Monte Carlo Code OpenMC Utilizing JEFF-3.3 and ENDF/B-VIII.0 Nuclear Data Libraries,'' \textbf{\textit{Proceedings of the Energy Conference 2023: National and Global Issues (ENCON23).}}\\
+    Available at \textnormal{\url{http://dx.doi.org/10.2139/ssrn.4997514}}.
+\end{enumerate}
+
+% \hrule \vspace{-6pt}
+
+% Research Interests
+\section*{Research Interests}\vspace{-2pt}
+\begin{itemize}
+    \item Particle Physics, Astroparticle Physics
+    \item Physics Beyond the Standard Model, Dark Matter Physics
+    \item Nuclear Physics, QCD
+\end{itemize}
+
+% Workshops and Courses
+\section*{Workshops and Courses}\vspace{-4pt}
+\begin{enumerate}
+    \item \textbf{Second Joint ICTP–IAEA Workshop on Open-Source Nuclear Codes for Reactor Analysis},\\
+    ICTP, Trieste, Italy \hfill \textbf{2025}
+    \begin{itemize}\itemsep 0pt \parskip 0pt \parsep 0pt
+        \item Participated in hands-on sessions with OpenMC, OpenFOAM, MOOSE, and Cardinal.
+        \item Presented a poster titled ``\textbf{\textit{Neutronic Evaluation of Reflector Materials for the ALFRED Core}}''.
+    \end{itemize}
+    
+    \item \textbf{Fundamentals of Reactor Physics with Python}, International Atomic Energy Agency (IAEA) \hfill \textbf{2025}
+    \begin{itemize}\itemsep 0pt \parskip 0pt \parsep 0pt
+        \item Covered reactor physics fundamentals—including neutron slowing down theory, multi-group transport and diffusion equations, point reactor kinetics, and fuel depletion modeling.\\ \textbf{Books:} \textbf{\textit{Nuclear Reactor Analysis}} (Duderstadt \& Hamilton, 1976) and \textbf{\textit{Nuclear Reactor Physics}} (Stacey, 2nd ed.). 
+        \item Completed 11 guided datalabs and 8 independent assignments in Python, solving neutron balance, slowing-down spectra, and time-dependent reactor equations, and extending to Monte Carlo sampling, numerical diffusion, reactor kinetics, subcritical system analysis, and full-core OpenMC simulations.
+
+    \end{itemize}
+
+    \item \textbf{MTV Nuclear Engineering Summer School}, University of Michigan \hfill \textbf{2023}
+    \begin{itemize}\itemsep 0pt \parskip 0pt \parsep 0pt
+        \item Covered foundational nuclear topics including nuclear structure, gamma and neutron physics, radiation detection, imaging, and fission science.  
+        \item Attended lectures on Monte Carlo methods, nuclear data evaluation, and integral experiment design.  
+        \item Explored advanced applications such as non-destructive assay, radioxenon monitoring, radiation protection, radiotherapy planning, and nuclear science outreach.
+    \end{itemize}
+
+    \item \textbf{CS50: Introduction to Computer Science}, Harvard University \hfill \textbf{2023}
+    \begin{itemize}\itemsep 0pt \parskip 0pt \parsep 0pt
+        \item Gained proficiency in C, Python, SQL, JavaScript, and web technologies (HTML/CSS) while applying concepts such as data structures, resource management, security, and web development.  
+        \item Completed 9 rigorous problem sets and delivered a final programming project.  
+    \end{itemize}
+\end{enumerate}
+
+% Skills
+\section*{Technical Skills}\vspace{-4pt}
+\begin{itemize}
+    \item \textbf{Computational Tools}: OpenMC, MOOSE (\textit{and Cardinal}), OpenFOAM (\textit{and Foam4Nuclear}), ARMI, OpenModelica, COMSOL Multiphysics
+    \item \textbf{Programming Languages}: Python (\textit{NumPy, SciPy, Matplotlib, Pandas, PyNE}), C/C++, MATLAB
+    \item \textbf{OS and Other Tools}: Linux, LaTeX, Microsoft Office, Git, GitHub
+\end{itemize}
+% \hrule \vspace{-6pt}
+
+\section*{Awards and Achievements} \vspace{-2pt}
+\textbf{Bronze Honour,} International Astronomy and Astrophysics Competition (IAAC) \hfill \textbf{2022}
+
+% Extracurricular Activities
+\section*{Extracurricular Activities} \vspace{-2pt}
+\textbf{President,} MIST Nuclear Engineering Club (MNEC) \hfill \textbf{2024 -- 2025} \\
+\textbf{Club Coordinator,} MIST Nuclear Engineering Club (MNEC) \hfill \textbf{2023 -- 2024}
+
+\end{document}
